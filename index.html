@@ -17,7 +17,7 @@
     <p>Media & JS</p>
     <p><b>Pay fair – we care</b></p>
     <br>
-    <a class="button" href="#">Projekt starten</a>
+    <a class="button" id="start-project" href="#">Projekt starten</a>
 </header>
  
 <section>
@@ -31,12 +31,12 @@
 <section>
     <h2>Leistungen</h2>
     <div class="services">
-        <div class="card">Webdesign</div>
-        <div class="card">Grafikdesign</div>
-        <div class="card">Video & Fotoschnitt</div>
-        <div class="card">3D Druck</div>
-        <div class="card">Personelle Beratung</div>
-        <div class="card">Kundenservice</div>
+        <div class="cards">Webdesign</div>
+        <div class="cards">Grafikdesign</div>
+        <div class="cards">Video & Fotoschnitt</div>
+        <div class="cards">3D Druck</div>
+        <div class="cards">Personelle Beratung</div>
+        <div class="cards">Kundenservice</div>
     </div>
 </section>
  
@@ -44,16 +44,46 @@
     <h2>Team</h2>
     <div class="team">
         <div class="card">
-            <p>Jakob Maroufi – Founder & CEO</p>
-            <img src="images/me.jpg" alt="">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p>Jakob Maroufi – Founder & CEO</p>
+                    <div class="icon-container column">
+                        <img src="images/me.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-back">
+                    <p>Erfahrener Gründer mit Fokus auf Innovation und Teamleitung.</p>
+                    <p>Hier erfahren Sie mehr über mich.</p>
+                    <img class="qr-image" src="images/qr.png" alt="QR-Code">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p>Jana Wieshaupt – Business Manager</p>
+                    <div class="icon-container icon-only">
+                        <i class="fas fa-circle-user fa-3x"></i>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <p>Spezialisiert in Business Development und Kundenbetreuung.</p>
+                </div>
+            </div>
         </div>
         <div class="card">
-            <p>Jana Wieshaupt – Business Manager</p>
-            <i class="fas fa-circle-user fa-3x"></i>
-        </div>
-        <div class="card">
-            <p>Lara Leitenhuber – Media Manager</p>
-            <i class="fas fa-circle-user fa-3x"></i>
+            <div class="card-inner">
+                <div class="card-front">
+                    <p>Lara Leitenhuber – Media Manager</p>
+                    <div class="icon-container icon-only">
+                        <i class="fas fa-circle-user fa-3x"></i>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <p>Expertin in Medienproduktion und Content-Erstellung.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -63,14 +93,14 @@
     <p>Ab ca. 35€/h – faire & transparente Preise je nach Projekt.</p>
 </section>
  
-<section>
+<section id="contact">
     <h2>Kontakt</h2>
-    <p>Email: info@mjvisionflow.at</p>
+    <p>Email: info.mjvisionflow@gmail.com</p>
     <p>Standorte: Grafenwörth, Gösing, Krems</p>
 </section>
  
 <div class="footer">
-    <p>© MJ VisionFlow</p>
+    <p>© MJ VisionFlow 2026</p>
 </div>
  
 </body>
